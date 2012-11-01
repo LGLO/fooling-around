@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>The blog of $name</title>
+    </head>
+    <body>
+        <ul>
+            #foreach( $post in $allPosts )
+                <li>
+                    <h3>$post.title</h3>
+                    <p>
+                    $post.text
+                    </p>
+                    <p>
+                    #foreach($tag in $post.tags)
+                        $tag, 
+                    #end
+                </li>
+            #end
+        </ul>
+    </body>
+</html>

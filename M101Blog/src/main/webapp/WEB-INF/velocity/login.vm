@@ -1,0 +1,11 @@
+<html>
+<body>
+<form name="f" action="j_spring_security_check" method="POST">
+user:<br/>
+<input name="j_username" type="text"/><br/>
+password:<br/>
+<input name="j_password" type="password"/><br/>
+<input value="login" type="submit"/>
+</form>
+</body>
+</html>
